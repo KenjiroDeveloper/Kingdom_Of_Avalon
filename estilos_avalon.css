@@ -1,0 +1,146 @@
+
+@import url('https://fonts.cdnfonts.com/css/minecraft-3');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    overflow-x: hidden;
+    background-image:
+    url(imagenes_avalon/_2a4836fe-6fbb-4f50-9ef2-514f0cb8815d.jpeg)
+     ;
+     background-size: contain;
+     font-family: 'Minecraft', sans-serif;
+
+   
+}
+
+header{
+    background-color: #111;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+
+    
+}
+header .logo{
+    width: 120px;
+    height: 120px;
+    background-color: antiquewhite;
+    margin: auto;
+    border-radius: 99999px;
+    margin-bottom: 10px;
+    border: solid #3c3c3c 8px;
+    background-image:url(imagenes_avalon/WhatsApp\ Image\ 2023-12-24\ at\ 12.27.09\ AM.jpeg);
+    background-size: cover;
+}
+
+header img{
+    width: 450px;
+    height: 35px;
+    
+}
+
+header .titulo{
+    display: flex;
+    justify-content: center;
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+    background-color: #3c3c3c;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+nav ul{
+    display: flex;
+}
+
+nav ul li{
+    display: flex;
+    list-style: none;
+    background-color:transparent;
+    height: 50px;
+    width:25vw;
+    justify-content: center;
+    align-items: center;
+    transition: background 0.4s ease;
+    cursor: pointer;
+}
+
+nav ul li:hover{
+    background-color:#898989;
+   
+}
+
+.info{
+    padding: 20px 40px;
+}
+.info p{
+    font-size: 22px;
+    z-index: 1;
+    word-wrap: break-word;
+    text-align: justify;
+
+}
+
+
+section{
+    background-color: transparent;
+    margin: 100px 0px;
+    background-color: rgba(50, 50, 50, 0.9);
+    backdrop-filter: blur(10PX);
+    color: white;
+    line-height: 1.5;
+}
+
+.info .titulo{
+    
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+#inicio >img{
+    width: 500px;
+    border-radius: 20px;
+    float: left;
+    margin: 0px 15px 10px 0px;
+    box-shadow: 0px 0px 10px 1px #000;
+
+}
+
+#imagenes_reglas{
+    position: relative;
+    display: flex;
+    width: auto;
+    justify-content: space-evenly;
+    margin-bottom: 30px;
+}
+
+#imagenes_reglas > img{
+    width: 300px;
+    border: #CDA434 8px double;
+    border-radius: 999px;
+    box-shadow: 0px 0px 10px 2px #CDA434
+}
+
+#reglas ul{
+display: flex;
+flex-direction: column;
+gap: 50px;
+    
+}
+
+#reglas ul li{
+    list-style: url(imagenes_avalon/video\ \(2\).png);
+}
+
+
+
