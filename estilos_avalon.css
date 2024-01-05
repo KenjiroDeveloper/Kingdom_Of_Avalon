@@ -8,7 +8,7 @@
 body{
     overflow-x: hidden;
     background-image:
-    url(imagenes_avalon/_2a4836fe-6fbb-4f50-9ef2-514f0cb8815d.jpeg)
+    url(imagenes_avalon/fondo.jpeg)
      ;
      background-size: contain;
      font-family: 'Minecraft', sans-serif;
@@ -33,7 +33,7 @@ header .logo{
     border-radius: 99999px;
     margin-bottom: 10px;
     border: solid #3c3c3c 8px;
-    background-image:url(imagenes_avalon/WhatsApp\ Image\ 2023-12-24\ at\ 12.27.09\ AM.jpeg);
+    background-image:url(imagenes_avalon/logo_avalon.jpeg);
     background-size: cover;
 }
 
@@ -139,7 +139,7 @@ gap: 50px;
 }
 
 #reglas ul li{
-    list-style: url(imagenes_avalon/video\ \(2\).png);
+    list-style: url(imagenes_avalon/creeper_2.png);
 }
 
 
